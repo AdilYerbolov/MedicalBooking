@@ -107,6 +107,6 @@ public class Doctor extends User {
 
     @Override
     public String toString(){
-        return "Doctor name: " + name + ", specification: " + specialization + ", available from: " + avFrom + " to " + avTo + ", email: " + email + ", phone: " + phone;
+        return "Doctor name: " + name + ", specification: " + specialization + ", ID: " + id + ", available from: " + avFrom + " to " + avTo + ", email: " + email + ", phone: " + phone;
     }
 }
